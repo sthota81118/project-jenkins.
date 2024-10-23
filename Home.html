@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>netflix</title>
+    <header>
+        <img src="netflix.jpg" alt="logo">
+        
+    </header>
+   
+   <style>
+
+   /* Global styles */
+
+       body{
+
+           font-family: Arial, Helvetica, sans-serif;
+
+           background-color: antiquewhite;
+
+
+       }
+
+       /* Header styles */
+
+       header{
+
+           background-color: aqua;
+
+           padding: 20px;
+
+           text-align: center;
+
+
+          }
+
+          header img{
+            max-width: 200px;
+
+            height: auto;
+
+          }
+       /* Main content styles */
+       main {
+
+      
+        flex: 1;
+
+        padding: 20px;
+
+        display: flex;
+
+        justify-content: center;
+
+       }
+          .card-container{
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 20px;
+
+            justify-content: center;
+
+            width: 100%;
+
+            max-width: 1200px;
+
+          }
+
+          /* Card Styles */
+
+          .Card {
+
+         background-color: rgb(176, 104, 16);
+
+         border-radius: 10px;
+
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+         
+         
+         max-width: 300px;
+
+         width: 100%;
+
+         text-align: center;
+
+         transition: transform 0.2s, box-shadow 0.2s;
+
+          }
+
+          .Card:hover{
+
+            transform: translateY(-10px);
+
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+
+          }
+
+          .Card img{
+
+            width: 100%;
+
+            min-height: auto;
+
+            display: 15px;
+          }
+
+
+          .Card-content {
+
+            padding:15px;
+
+          }
+
+          .Card-title {
+
+            font-size: 1.2em;
+
+            margin: 10px 0;
+
+            color: #333;
+
+          }
+
+        .Card-text {
+
+        font-size: 0.95em;
+
+        color: #666;
+
+        }
+
+        /* Footer Styles */
+        footer {
+
+            background-color: #141414;
+
+            color: #fff;
+
+            text-align: center;
+
+            padding: 20px;
+        }
+
+        footer h3 {
+            margin: 0;
+            font-size: 1em;
+
+        }
+
+        /* responsive adjustments */
+
+        @media (max-width:768px) {
+
+            .card-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .Card{
+                max-width: 90%;
+
+            }
+        }
+</style>
+
+</head>
+<body>
+    
+<!--Header section-->
+<header>
+
+    
+<div class="netflix">
+
+    <img src="netflix.jpg" alt=" Netflix Logo">
+
+
+</div>
+
+</header>
+
+
+       
+
+
+<!-- Main Content Section -->
+    <main>
+
+    <div class=" card-container"
+
+   <!-- Card 1-->
+
+   <div class="Card">
+<a href="karthikeya1.html">karthikeya</a>
+
+  <img src="k1.jpg" alt="card image" class="card-image">
+
+  <div class="card-content">
+
+   <h3 class="card-title">karthikeya 1</h3>
+
+   <p class="card-text">Telugu movie acted by Nikhil</p>
+
+   1</p>
+  </div>
+
+   </div>
+
+   <!-- Card 2-->
+
+   <div class="Card">
+
+    <img src="k1.jpg" alt="card image" class="card-image">
+  
+    <div class="card-content">
+  
+     <h3 class="card-title">karthikeya 1</h3>
+  
+     <p class="card-text">Telugu movie acted by Nikhil</p>
+  
+     2</p>
+    </div>
+  
+</div>
+     <!-- Card 3-->
+
+   <div class="Card">
+
+    <img src="k1.jpg" alt="card image" class="card-image">
+  
+    <div class="card-content">
+  
+     <h3 class="card-title">karthikeya 1</h3>
+  
+     <p class="card-text">Telugu movie acted by Nikhil</p>
+  
+     3</p>
+    </div>
+  
+</div>
+
+     <!-- Card 4-->
+
+   <div class="Card">
+
+    <img src="k1.jpg" alt="card image" class="card-image">
+  
+    <div class="card-content">
+  
+     <h3 class="card-title">karthikeya 1</h3>
+  
+     <p class="card-text">Telugu movie acted by Nikhil</p>
+  
+     4</p>
+    </div>
+  
+</div>
+     <!-- Card 5-->
+
+   <div class="Card">
+
+    <img src="k1.jpg" alt="card image" class="card-image">
+  
+    <div class="card-content">
+  
+     <h3 class="card-title">karthikeya 1</h3>
+  
+     <p class="card-text">Telugu movie acted by Nikhil</p>
+  
+     5</p>
+    </div>
+  
+</div>
+     <!-- Card 6-->
+
+   <div class="Card">
+
+    <img src="k1.jpg" alt="card image" class="card-image">
+  
+    <div class="card-content">
+  
+     <h3 class="card-title">karthikeya 1</h3>
+  
+     <p class="card-text">Telugu movie acted by Nikhil</p>
+  
+     6</p>
+   
+    </div>
+</main>
+<h1> Contact Us Support </h1>
+<form action="/submit_form" method="post">
+
+<label for="Name">First Name</label><br>
+<input type="text" id="First name" name="first Name" required><br><br>
+<label for="Name">Last Name</label><br>
+<input type="text" id="Last name" name="Last Name" required><br><br>
+<label for="Phone Number">Phone Number:</label><br>
+<input type="text" id="Phone Number" name="Phone Number" required><br><br>
+<label for="email">Email:</label><br>
+<input type="text" id="Email" name="email" required><br><br>
+<label for="Reason For Contact">Reason For Contact:</label><br>
+<input type="text" id="Reason For Contact" name="Reason for Contact" textarea id="reason" name="reason" cols="50" rows="10" required><br><br>
+<textarea id="Reason" name="reason" cols="50" rows="10"></textarea>
+<input type="submit" value="submit">
+
+
+
+
+
+</form>
+
+            <!--Footer Section-->
+            <footer>
+            <div>
+            <h3>©2024 netflix.com. All rights reserved.</h3>
+            </div>
+        </footer>
+        </body>
+
+         </html>
